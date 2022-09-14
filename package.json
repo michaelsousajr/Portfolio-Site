@@ -1,32 +1,37 @@
 {
-    "name": "michael-sousa-homepage",
-    "version": "1.0.0",
-    "description": "Michael's website",
-    "scripts": {
-      "dev": "next dev -H 0.0.0.0",
-      "build": "next build",
-      "start": "next start",
-      "prettier": "prettier --write .",
-      "lint": "next lint"
-    },
-    "keywords": [],
-    "author": "Michael Sousa",
-    "license": "",
-    "dependencies": {
-      "@chakra-ui/icons": "^2.0.8",
-      "@chakra-ui/react": "^2.2.8",
-      "@emotion/react": "^11.10.0",
-      "@emotion/styled": "^11.10.0",
-      "framer-motion": "^7.2.0",
-      "next": "^12.2.5",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0",
-      "react-icons": "^4.4.0",
-      "three": "^0.143.0"
-    },
-    "devDependencies": {
-      "eslint": "^8.22.0",
-      "eslint-config-next": "^12.2.5",
-      "prettier": "^2.7.1"
-    }
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Michael's Webite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelsousajr/Portfolio-Site.git"
+  },
+  "keywords": [],
+  "author": "Michael Sousa",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/michaelsousajr/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/michaelsousajr/Portfolio-Site#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-next": "^12.3.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.2",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.3.4",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
+}
